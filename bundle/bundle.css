@@ -1167,14 +1167,16 @@ img {
   .header-nav-list {
     position: static;
     background-color: white;
-    border: 0; }
+    border: 0;
+    border-top: 1px dashed #E8EAE5;
+    padding-top: 18px; }
   .header-user-options-list {
     position: relative; }
   .header-user-options-item {
     display: block;
     margin: 30px auto; }
   .header-search-wrap {
-    margin-top: 20px; }
+    margin-top: 35px; }
   .header-search-bar {
     margin: 0 auto; }
   .header-search-icon {
