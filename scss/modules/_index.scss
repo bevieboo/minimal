@@ -48,6 +48,11 @@
   top: -2px;
 }
 
+.header-search-wrap {
+  display: inline-block;
+  position: relative;
+}
+
 .header-search-bar {
   margin-left: 20px;
   border-radius: 2px;
@@ -162,31 +167,45 @@
   .header {
     height: 95px;
   }
-
   .header-logo {
     top: 18%;
   }
-
   .header-menu {
     position: absolute;
-    left: 30%;
-    height: auto;
+    top: 95px;
+    right: 0;
+    height: 700px;
     display: none;
-    background-color: $gray-nurse;
+    background-color: white;
     width: 30%;
+    border: 1px solid $gray-nurse;
   }
-
   .header-user-options {
     position: static;
+    text-align: center;
   }
-  .header-nav-list{
+  .header-nav-list {
     position: static;
+    background-color: white;
+    border: 0;
+  }
+  .header-user-options-list {
+    position: relative;
   }
   .header-user-options-item {
-    // position: absolute;
     display: block;
+    margin: 30px auto;
   }
-
+  .header-search-wrap {
+    margin-top: 20px;
+  }
+  .header-search-bar {
+    margin: 0 auto;
+  }
+  .header-search-icon {
+    position: absolute;
+    top: -1px;
+  }
   .header-hamburger {
     display: block;
     position: absolute;

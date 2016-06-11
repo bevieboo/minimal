@@ -1048,6 +1048,10 @@ img {
   position: relative;
   top: -2px; }
 
+.header-search-wrap {
+  display: inline-block;
+  position: relative; }
+
 .header-search-bar {
   margin-left: 20px;
   border-radius: 2px;
@@ -1150,17 +1154,32 @@ img {
     top: 18%; }
   .header-menu {
     position: absolute;
-    left: 30%;
-    height: auto;
+    top: 95px;
+    right: 0;
+    height: 700px;
     display: none;
-    background-color: #E8EAE5;
-    width: 30%; }
+    background-color: white;
+    width: 30%;
+    border: 1px solid #E8EAE5; }
   .header-user-options {
-    position: static; }
+    position: static;
+    text-align: center; }
   .header-nav-list {
-    position: static; }
+    position: static;
+    background-color: white;
+    border: 0; }
+  .header-user-options-list {
+    position: relative; }
   .header-user-options-item {
-    display: block; }
+    display: block;
+    margin: 30px auto; }
+  .header-search-wrap {
+    margin-top: 20px; }
+  .header-search-bar {
+    margin: 0 auto; }
+  .header-search-icon {
+    position: absolute;
+    top: -1px; }
   .header-hamburger {
     display: block;
     position: absolute;
