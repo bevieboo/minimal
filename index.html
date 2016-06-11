@@ -11,24 +11,28 @@
 
     <div class="header">
       <div class="header-logo"></div>
-      <div class="header-hamburger">&#9776;</div>
+      <button class="header-hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
       <div class="header-menu">
         <div class="header-user-options">
-          <ul>
-            <a href=""><li>My Account</li></a>
-            <a href=""><li><span>3</span>Cart</li></a>
+          <ul class="header-user-options-list">
+            <a href=""><li class="header-user-options-item">My Account</li></a>
+            <a href=""><li class="header-user-options-item"><span class="header-user-options-item-cart">3</span>Cart</li></a>
             <input type="text" placeholder="Search for a product" class="header-search-bar">
             <div class="header-search-icon"></div>
           </ul>
         </div>
         <div class="header-nav">
-          <ul>
-            <a href=""><li>HOME</li></a>
-            <a href=""><li>CATALOG</li></a>
-            <a href=""><li>ABOUT</li></a>
-            <a href=""><li>DOCUMENTATION</li></a>
-            <a href="/blog.html"><li>BLOG</li></a>
-            <a href=""><li>CONTACT</li></a>
+          <ul class="header-nav-list">
+            <a href=""><li class="header-nav-item">HOME</li></a>
+            <a href=""><li class="header-nav-item">CATALOG</li></a>
+            <a href=""><li class="header-nav-item">ABOUT</li></a>
+            <a href=""><li class="header-nav-item">DOCUMENTATION</li></a>
+            <a href="/blog.html"><li class="header-nav-item">BLOG</li></a>
+            <a href=""><li class="header-nav-item">CONTACT</li></a>
           </ul>
         </div>
       </div>
@@ -43,5 +47,7 @@
       </div>
     </div>
 
+    <script src="./javascripts/jQuery.js" charset="utf-8"></script>
+    <script src="./javascripts/hamburger.js" charset="utf-8"></script>
   </body>
 </html>
