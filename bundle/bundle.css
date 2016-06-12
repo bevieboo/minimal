@@ -1003,6 +1003,30 @@ img {
   height: auto;
   border: 0; }
 
+.module {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E8EAE5; }
+
+.module-header {
+  margin: 60px auto; }
+
+.module-title {
+  letter-spacing: 2.5px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 20px auto; }
+
+.module-desc {
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+  color: #999;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 1vw; }
+
 .header {
   height: 150px;
   width: 100%;
@@ -1136,36 +1160,12 @@ img {
   font-weight: 700;
   font-size: 0.6vw; }
 
-.featured {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto;
-  border-bottom: 1px solid #E8EAE5; }
-
-.featured-header {
-  margin: 60px auto; }
-
-.featured-title {
-  letter-spacing: 2.5px;
-  font-size: 1.5vw;
-  font-weight: 500;
-  margin: 20px auto; }
-
-.featured-desc {
-  font-family: "Vollkorn", serif;
-  font-style: italic;
-  color: #999;
-  width: 60%;
-  margin: 0 auto;
-  letter-spacing: 1px;
-  font-size: 1vw; }
-
 .featured-left, .featured-right {
-  width: 48%;
+  width: 49.7%;
   display: inline-block;
   vertical-align: top;
   height: 600px;
-  margin-bottom: 100px; }
+  margin-bottom: 60px; }
 
 .featured-backpacks, .featured-shirts {
   display: inline-block;
@@ -1200,7 +1200,8 @@ img {
   top: 12%;
   left: 7%;
   text-align: left;
-  font-family: "Vollkorn", serif; }
+  font-family: "Vollkorn", serif;
+  z-index: 5; }
 
 .featured-text-title {
   margin-bottom: 1px;
@@ -1285,9 +1286,9 @@ img {
     top: 20%; } }
 
 @media (max-width: 1000px) {
-  .featured-title {
+  .module-title {
     font-size: 2.2vw; }
-  .featured-desc {
+  .module-desc {
     font-size: 1.2vw; }
   .featured-left, .featured-right {
     margin: 0 auto;
@@ -1369,11 +1370,11 @@ img {
   .banner-button {
     font-size: 1vw;
     padding: 1.4vw 2.8vw; }
-  .featured-title {
+  .module-title {
     font-size: 2.4vw; }
-  .featured-desc {
+  .module-desc {
     font-size: 1.4vw; }
-  .featured {
+  .module {
     width: 100%; }
   .featured-left, .featured-right {
     margin: 0 auto;
@@ -1409,7 +1410,7 @@ img {
   .banner-button {
     font-size: 1.8vw;
     padding: 2vw 4vw; }
-  .featured-title {
+  .module-title {
     font-size: 3.5vw; }
-  .featured-desc {
+  .module-desc {
     font-size: 2.2vw; } }

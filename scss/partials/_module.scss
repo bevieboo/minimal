@@ -1,0 +1,27 @@
+.module {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid $gray-nurse;
+}
+
+.module-header {
+  margin: 60px auto;
+}
+
+.module-title {
+  letter-spacing: 2.5px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+.module-desc {
+  font-family: $font-family-vollkorn;
+  font-style: italic;
+  color: #999;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 1vw;
+}
