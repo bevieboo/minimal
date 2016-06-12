@@ -1,0 +1,120 @@
+@media (max-width: 1300px) {
+  .banner-button {
+    font-size: 0.8vw;
+    padding: 1vw 2.4vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-logo {
+    left: 50px;
+  }
+  .header-user-options {
+    top: 20%;
+  }
+}
+
+@media (max-width: 820px) {
+  .header {
+    height: 95px;
+  }
+  .header-logo {
+    top: 18%;
+  }
+  .header-menu {
+    position: absolute;
+    top: 95px;
+    right: 0;
+    height: 700px;
+    display: none;
+    background-color: white;
+    width: 220px;
+    border: 1px solid $gray-nurse;
+
+    &.is-shown {
+      display: block;
+    }
+  }
+  .header-user-options {
+    position: static;
+    text-align: center;
+  }
+  .header-nav-list {
+    position: static;
+    background-color: white;
+    border: 0;
+    border-top: 1px dashed $gray-nurse;
+    padding-top: 18px;
+  }
+  .header-user-options-list {
+    position: relative;
+  }
+  .header-user-options-item {
+    display: block;
+    margin: 30px auto;
+  }
+  .header-search-wrap {
+    margin-top: 35px;
+  }
+  .header-search-bar {
+    margin: 0 auto;
+  }
+  .header-search-icon {
+    position: absolute;
+    top: -1px;
+  }
+  .header-hamburger {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    border: 0;
+    background-color: transparent;
+    outline:none;
+  }
+  .banner-heading-wrap {
+    left: 12%;
+  }
+  .banner-heading1 {
+    font-size: 1.8vw;
+  }
+  .banner-heading2 {
+    font-size: 4.2vw;
+  }
+  .banner-heading3 {
+    font-size: 1vw;
+  }
+  .banner-button {
+    font-size: 1vw;
+    padding: 1.4vw 2.8vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .banner {
+    background-image: none;
+    background-color: $gray-nurse;
+    height: 500px;
+  }
+  .banner-heading-wrap {
+    top: 50%;
+    left: 50%;
+    // transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .banner-heading1 {
+    font-size: 2.5vw;
+  }
+  .banner-heading2 {
+    font-size: 5.5vw;
+  }
+  .banner-heading3 {
+    font-size: 1.8vw;
+  }
+  .banner-button {
+    font-size: 1.8vw;
+    padding: 2vw 4vw;
+  }
+}

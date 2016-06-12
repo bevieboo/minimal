@@ -1,0 +1,114 @@
+.featured {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid $gray-nurse;
+}
+
+.featured-header {
+  margin: 60px auto;
+}
+
+.featured-title {
+  letter-spacing: 2.5px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+.featured-desc {
+  font-family: $font-family-vollkorn;
+  font-style: italic;
+  color: #999;
+  width: 58%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+
+.featured-left, .featured-right {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+%featured-boxes-tall {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+  height: 58%;
+}
+
+%featured-boxes-short {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+  height: 42%;
+}
+
+.featured-jackets {
+  @extend %featured-boxes-short;
+  background-color: $mystic;
+  margin-bottom: 5px;
+}
+
+.featured-backpacks {
+  @extend %featured-boxes-tall;
+  background-color: $wild-sand;
+  margin-bottom: 5px;
+}
+
+.featured-shirts {
+  @extend %featured-boxes-tall;
+  background-color: $hint-of-red;
+}
+
+.featured-pants {
+  @extend %featured-boxes-short;
+  background-color: $mystic;
+}
+
+.featured-jacket {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/index/featured-jacket.png');
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  bottom: 0;
+}
+
+.featured-backpack {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/index/featured-backpack.png');
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 55% center;
+  position: absolute;
+}
+
+.featured-shirt {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/index/featured-shirt.png');
+  background-size: 44%;
+  background-repeat: no-repeat;
+  background-position: 85% center;
+  position: absolute;
+}
+
+.featured-pants2 {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/index/featured-pants.png');
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 65% center;
+  position: absolute;
+}
