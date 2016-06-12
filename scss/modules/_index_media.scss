@@ -3,6 +3,12 @@
     font-size: 0.8vw;
     padding: 1vw 2.4vw;
   }
+  .popular-info {
+    font-size: 12px;
+  }
+  .big-button {
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -81,9 +87,10 @@
   .popular-info {
     width: 25vw;
     bottom: -50px;
+    font-size: 12px;
   }
   .big-button {
-    font-size: 0.8vw;
+    font-size: 8px;
   }
 
 }
@@ -195,10 +202,10 @@
     width: 30vw;
   }
   .popular-info {
-    font-size: 1.3vw;
+    font-size: 12px;
   }
   .big-button {
-    font-size: 0.9vw;
+    font-size: 8px;
   }
 }
 
@@ -239,6 +246,7 @@
     bottom: -60px;
   }
   .big-button {
-    font-size: 8px;
+    font-size: 7px;
+    padding: 7px 18px;
   }
 }
