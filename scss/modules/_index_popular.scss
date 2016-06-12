@@ -34,7 +34,7 @@
   width: 12vw;
   position: absolute;
   bottom: -60px;
-  font-size: 0.8em;
+  font-size: 0.9vw;
   font-family: $font-family-vollkorn;
   margin: 0 3.5%;
 }
@@ -52,4 +52,8 @@
   color: red;
   text-decoration: none;
   display: inline-block;
+}
+
+.popular-view-all {
+  margin-bottom: 60px;
 }
