@@ -93,7 +93,7 @@
 .header-nav-item {
   display: inline-block;
   list-style: none;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 35px;
   font-size: 0.8rem;
 }
@@ -147,6 +147,8 @@
   font-size: 0.6vw;
 }
 
+
+
 @media (max-width: 1300px) {
   .banner-button {
     font-size: 0.8vw;
@@ -177,8 +179,12 @@
     height: 700px;
     display: none;
     background-color: white;
-    width: 30%;
+    width: 220px;
     border: 1px solid $gray-nurse;
+
+    &.is-shown {
+      display: block;
+    }
   }
   .header-user-options {
     position: static;
@@ -218,4 +224,8 @@
     background-color: transparent;
     outline:none;
   }
+}
+
+@media (max-width: 700px) {
+
 }
