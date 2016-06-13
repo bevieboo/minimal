@@ -1,3 +1,7 @@
+.story:after {
+  content: none;
+}
+
 .story-wrap {
   width: 70%;
   margin: 60px auto;
@@ -6,6 +10,7 @@
   height: auto;
   text-align: left;
   position: relative;
+  margin-bottom: 0;
 }
 
 .story-image {
@@ -53,10 +58,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   line-height: 1;
-  // background-image: url('../images/index/storyblock.png');
-  // background-repeat: no-repeat;
-  // background-position: center center;
-  // background-size: contain;
 }
 .story-block-image {
   width: 50%;

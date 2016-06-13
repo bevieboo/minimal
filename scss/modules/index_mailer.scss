@@ -1,0 +1,44 @@
+.mailer {
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: 1px solid $gray-nurse;
+}
+
+.mailer-text {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 30px;
+}
+
+.mailer-input-wrap {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+}
+
+.mailer-input {
+  border-radius: 2px;
+  border: 1px solid $gray-nurse;
+  width: 100%;
+  font-size: 0.7em;
+  padding: 6px 0;
+  padding-left: 10px;
+  font-family: $font-family-raleway;
+  outline: none;
+}
+.mailer-button {
+  background-color: black;
+  color: rgba(255,255,255,0.8);
+  font-family: $font-family-raleway;
+  font-weight: 400;
+  font-size: 0.5em;
+  height: 28px;
+  border: 0;
+  padding: 0 10px;
+  margin-left: -4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  letter-spacing: 1px
+}
