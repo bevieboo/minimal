@@ -1721,6 +1721,8 @@ img {
     width: 100%;
     display: block;
     margin-bottom: 10px; }
+  .featured-right {
+    margin-bottom: 80px; }
   .featured-backpacks, .featured-shirts, .featured-jackets, .featured-pants {
     height: 50%; }
   .featured-jacket {
@@ -1737,15 +1739,20 @@ img {
     font-size: 1.1em; }
   .featured-text-link {
     font-size: 0.8em; }
+  .popular-item-wrap {
+    margin-bottom: 50px; }
   .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 25vw;
     width: 25vw; }
+  .popular-item {
+    position: static; }
   .popular-image-three, .popular-image-four {
-    margin-top: 100px; }
+    margin-top: 60px; }
   .popular-info {
+    position: static;
     width: 25vw;
-    bottom: -50px;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-top: 20px; }
   .big-button {
     font-size: 8px; }
   .blog-one, .blog-two, .blog-three, .blog-four {

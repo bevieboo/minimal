@@ -126,6 +126,9 @@
     display: block;
     margin-bottom: 10px;
   }
+  .featured-right {
+    margin-bottom: 80px;
+  }
   %featured-boxes-tall, %featured-boxes-short {
     height: 50%;
   }
@@ -149,17 +152,25 @@
   .featured-text-link {
     font-size: 0.8em;
   }
+  .popular-item-wrap {
+    margin-bottom: 50px;
+  }
   %popular-items {
     height: 25vw;
     width: 25vw;
   }
+  .popular-item {
+    position: static;
+  }
+
   .popular-image-three, .popular-image-four {
-    margin-top: 100px;
+    margin-top: 60px;
   }
   .popular-info {
+    position: static;
     width: 25vw;
-    bottom: -50px;
     font-size: 12px;
+    margin-top: 20px;
   }
   .big-button {
     font-size: 8px;
