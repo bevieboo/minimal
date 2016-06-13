@@ -1552,6 +1552,14 @@ img {
   .big-button {
     font-size: 8px; } }
 
+@media (max-width: 720px) {
+  .blog-one, .blog-two, .blog-three, .blog-four {
+    width: 100%;
+    margin-bottom: 50px; }
+  .blog-one-image, .blog-two-image, .blog-three-image, .blog-four-image {
+    width: 115px;
+    height: 115px; } }
+
 @media (max-width: 550px) {
   .banner {
     background-image: none;
@@ -1572,7 +1580,7 @@ img {
   .banner-button {
     font-size: 1.8vw;
     padding: 2vw 4vw; }
-  .module-title {
+  .module-title, .module-blog-title {
     font-size: 3.5vw; }
   .module-desc {
     font-size: 2.2vw; }
@@ -1581,4 +1589,6 @@ img {
     bottom: -60px; }
   .big-button {
     font-size: 7px;
-    padding: 7px 18px; } }
+    padding: 7px 18px; }
+  .blog-wrap {
+    width: 90%; } }
