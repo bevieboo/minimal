@@ -956,6 +956,9 @@
 body {
   font-family: 'Raleway', sans-serif; }
 
+button:focus {
+  outline: 0; }
+
 /* apply a natural box layout model to all elements,
    but allow overriding */
 html {
@@ -1569,7 +1572,8 @@ img {
   top: 0;
   right: 0;
   cursor: pointer;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  outline: none; }
 
 .footer {
   padding: 50px 0;
