@@ -1867,7 +1867,8 @@ img {
     border-right: 1px solid rgba(0, 0, 0, 0.1); }
   .story-block-text {
     width: 68%;
-    vertical-align: top; }
+    vertical-align: top;
+    padding: 10px 15px; }
   .mailer-text {
     margin: 0 auto;
     font-size: 0.75em; }
