@@ -45,7 +45,7 @@
 }
 
 @media (max-width: 1000px) {
-  .module-title {
+  .module-title, .module-blog-title {
     font-size: 2.2vw;
   }
   .module-desc {
@@ -95,7 +95,19 @@
   .big-button {
     font-size: 8px;
   }
-
+  %blog-dims {
+    width: 49%;
+    margin-bottom: 50px;
+    padding: 0 30px;
+  }
+  %blog-image-dims {
+    width: 12vw;
+    height: 12vw;
+  }
+  .blog-wrap {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 820px) {
