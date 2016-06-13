@@ -17,7 +17,8 @@
 .blog-wrap {
   width: 70%;
   margin: 60px auto;
-  font-family: $font-family-vollkorn
+  font-family: $font-family-vollkorn;
+  font-size: 0.8em;
 }
 
 %blog-dims {
@@ -37,11 +38,9 @@
 
 .blog-title {
   margin-top: 20px;
-  font-size: 0.8em;
 }
 .blog-date {
   margin-top: 3px;
-  font-size: 0.8em;
   color: #999;
 }
 .blog-date:after {
@@ -57,7 +56,6 @@
   margin: 12px 0;
 }
 .blog-snippet {
-  font-size: 0.8em;
   color: #999;
 }
 

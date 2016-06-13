@@ -1336,7 +1336,8 @@ img {
 .blog-wrap {
   width: 70%;
   margin: 60px auto;
-  font-family: "Vollkorn", serif; }
+  font-family: "Vollkorn", serif;
+  font-size: 0.8em; }
 
 .blog-one, .blog-two, .blog-three, .blog-four {
   width: 24%;
@@ -1353,12 +1354,10 @@ img {
   background-position: center center; }
 
 .blog-title {
-  margin-top: 20px;
-  font-size: 0.8em; }
+  margin-top: 20px; }
 
 .blog-date {
   margin-top: 3px;
-  font-size: 0.8em;
   color: #999; }
 
 .blog-date:after {
@@ -1375,7 +1374,6 @@ img {
   margin: 12px 0; }
 
 .blog-snippet {
-  font-size: 0.8em;
   color: #999; }
 
 .blog-one-image {
@@ -1412,11 +1410,7 @@ img {
     height: 60%; }
   .featured-pants2 {
     height: 60%; }
-  .blog-title {
-    font-size: 0.7em; }
-  .blog-date {
-    font-size: 0.7em; }
-  .blog-snippet {
+  .blog-wrap {
     font-size: 0.7em; } }
 
 @media (max-width: 1100px) {
