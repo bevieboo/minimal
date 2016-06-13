@@ -12,8 +12,15 @@
   .story-text {
     font-size: 0.9em;
   }
+
+}
+
+@media(max-width: 1250px) {
+  .story-text {
+    font-size: 0.85em;
+  }
   .story-block-text {
-    font-size: 0.7em;
+    font-size: 0.75em;
   }
 }
 
@@ -38,6 +45,32 @@
   }
   .blog-wrap {
     font-size: 0.7em;
+  }
+  .story-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    margin-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+  }
+  .story-wrap {
+    text-align: center;
+  }
+  .story-text{
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+  }
+  .story-block {
+    height: 100%;
+    width: 15%;
+    text-align: left;
+    font-size: 0.6em;
+  }
+  .story-block-text {
+
   }
 }
 
