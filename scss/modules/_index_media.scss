@@ -199,17 +199,20 @@
     top: 18%;
   }
   .header-menu {
+    $width: 220px;
     position: absolute;
     top: 95px;
     right: 0;
     height: 700px;
-    display: none;
+    transform: translateX($width);
     background-color: white;
-    width: 220px;
+    width: $width;
     border: 1px solid $gray-nurse;
+    transition: all 0.5s;
 
     &.is-shown {
       display: block;
+      transform: translateX(0px);
     }
   }
   .header-user-options {
