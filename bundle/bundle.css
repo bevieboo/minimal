@@ -1319,6 +1319,77 @@ img {
 .popular-view-all {
   margin-bottom: 60px; }
 
+.module-blog {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #E8EAE5;
+  background-color: #E6EEF0;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.module-blog-title {
+  letter-spacing: 3.5px;
+  font-size: 1.4vw;
+  font-weight: 500; }
+
+.blog-wrap {
+  width: 70%;
+  margin: 60px auto;
+  font-family: "Vollkorn", serif; }
+
+.blog-one, .blog-two, .blog-three, .blog-four {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px; }
+
+.blog-one-image, .blog-two-image, .blog-three-image, .blog-four-image {
+  margin: 0 auto;
+  width: 8.5vw;
+  height: 8.5vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.blog-title {
+  margin-top: 20px;
+  font-size: 0.8em; }
+
+.blog-date {
+  margin-top: 3px;
+  font-size: 0.8em;
+  color: #999; }
+
+.blog-date:after {
+  content: "";
+  background-color: #999;
+  opacity: 0.5;
+  display: block;
+  width: 20px;
+  height: 1px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 12px 0; }
+
+.blog-snippet {
+  font-size: 0.8em;
+  color: #999; }
+
+.blog-one-image {
+  background-image: url("../images/index/blog1.png"); }
+
+.blog-two-image {
+  background-image: url("../images/index/blog2.png"); }
+
+.blog-three-image {
+  background-image: url("../images/index/blog3.png"); }
+
+.blog-four-image {
+  background-image: url("../images/index/blog4.png"); }
+
 @media (max-width: 1300px) {
   .banner-button {
     font-size: 0.8vw;
@@ -1340,7 +1411,13 @@ img {
   .featured-shirt {
     height: 60%; }
   .featured-pants2 {
-    height: 60%; } }
+    height: 60%; }
+  .blog-title {
+    font-size: 0.7em; }
+  .blog-date {
+    font-size: 0.7em; }
+  .blog-snippet {
+    font-size: 0.7em; } }
 
 @media (max-width: 1100px) {
   .header-logo {
