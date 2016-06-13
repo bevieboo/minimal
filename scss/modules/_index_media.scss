@@ -353,6 +353,12 @@
 }
 
 @media (max-width: 550px) {
+  .header-menu {
+    height: 500px;
+  }
+  .header-nav {
+    line-height: 45px;
+  }
   .banner {
     background-image: none;
     background-color: $gray-nurse;

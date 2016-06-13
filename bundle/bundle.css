@@ -1893,6 +1893,10 @@ img {
     width: 90%; } }
 
 @media (max-width: 550px) {
+  .header-menu {
+    height: 500px; }
+  .header-nav {
+    line-height: 45px; }
   .banner {
     background-image: none;
     background-color: #E8EAE5;
