@@ -2,9 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bundle/bundle.css">
+    <title>Minimal</title>
   </head>
   <body>
-    <h2>BLOG</h2>
+
+    <div class="header">
+      <div class="header-logo"></div>
+      <button class="header-hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="header-menu">
+        <div class="header-user-options">
+          <ul class="header-user-options-list">
+            <a href=""><li class="header-user-options-item header-user-options-account">My Account</li></a>
+            <a href=""><li class="header-user-options-item"><span class="header-user-options-item-cart">3</span>Cart</li></a>
+            <div class="header-search-wrap">
+              <input type="text" placeholder="Search for a product" class="header-search-bar">
+              <div class="header-search-icon"></div>
+            </div>
+          </ul>
+        </div>
+        <div class="header-nav">
+          <ul class="header-nav-list">
+            <a href=""><li class="header-nav-item">HOME</li></a>
+            <a href=""><li class="header-nav-item">CATALOG</li></a>
+            <a href=""><li class="header-nav-item">ABOUT</li></a>
+            <a href=""><li class="header-nav-item">DOCUMENTATION</li></a>
+            <a href="/blog.html"><li class="header-nav-item">BLOG</li></a>
+            <a href=""><li class="header-nav-item">CONTACT</li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <h1 class="blog-post-title">BLOG</h1>
+      <p class="blog-post-location">Home/Blog</p>
+      <div class="blog-post-feature-image"></div>
+      <div class="blog-post-main-wrap">
+        <div class="blog-post-main-title">Our fresh gear is here</div>
+        <div class="blog-post-main-date">7 Aug 2015</div>
+        <div class="blog-post-main-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <!-- <div class="blog-post-main-image-wrap"> -->
+          <div class="blog-post-main-image"></div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <script src="./javascripts/jQuery.js" charset="utf-8"></script>
+    <script src="./javascripts/hamburger.js" charset="utf-8"></script>
   </body>
 </html>

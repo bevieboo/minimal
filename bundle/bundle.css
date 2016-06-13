@@ -1010,7 +1010,14 @@ img {
   padding: 0.8vw 2.2vw;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 0.6vw; }
+  font-size: 0.6vw;
+  box-shadow: inset 0 0 0 0 #B9AE7C;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s; }
+
+.big-button:hover {
+  box-shadow: inset 250px 0 0 0 #B9AE7C;
+  color: white; }
 
 .module {
   text-align: center;
@@ -1167,7 +1174,14 @@ img {
   padding: 0.8vw 2.2vw;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 0.6vw; }
+  font-size: 0.6vw;
+  box-shadow: inset 0 0 0 0 #B9AE7C;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s; }
+
+.banner-button:hover {
+  box-shadow: inset 250px 0 0 0 #B9AE7C;
+  color: white; }
 
 .featured {
   border-bottom: 1px solid #E8EAE5; }
@@ -1184,28 +1198,57 @@ img {
   vertical-align: top;
   position: relative;
   width: 100%;
-  height: 58%; }
+  height: 58%;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .featured-jackets, .featured-pants {
   display: inline-block;
   vertical-align: top;
   position: relative;
   width: 100%;
-  height: 42%; }
+  height: 42%;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .featured-jackets {
   background-color: #E6EEF0;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  overflow: hidden; }
+
+.featured-jackets:hover {
+  background-color: #d6e3e6; }
+  .featured-jackets:hover .featured-jacket {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
 
 .featured-backpacks {
   background-color: #F5F5F5;
   margin-bottom: 5px; }
 
+.featured-backpacks:hover {
+  background-color: #e8e8e8; }
+  .featured-backpacks:hover .featured-backpack {
+    -webkit-transform: translateY(-50%) scale(1.1);
+            transform: translateY(-50%) scale(1.1); }
+
 .featured-shirts {
   background-color: #FBFAFA; }
 
+.featured-shirts:hover {
+  background-color: #f0ecec; }
+  .featured-shirts:hover .featured-shirt {
+    -webkit-transform: translateY(-50%) scale(1.1);
+            transform: translateY(-50%) scale(1.1); }
+
 .featured-pants {
   background-color: #E6EEF0; }
+
+.featured-pants:hover {
+  background-color: #d6e3e6; }
+  .featured-pants:hover .featured-pants2 {
+    -webkit-transform: translateY(-50%) scale(1.1);
+            transform: translateY(-50%) scale(1.1); }
 
 .featured-text-wrap {
   position: absolute;
@@ -1227,14 +1270,17 @@ img {
   color: #999; }
 
 .featured-jacket {
-  width: 100%;
+  width: 212px;
   height: 90%;
   background-image: url("../images/index/featured-jacket.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
-  bottom: 0; }
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .featured-backpack {
   width: 100%;
@@ -1246,10 +1292,12 @@ img {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+          transform: translateY(-50%);
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .featured-shirt {
-  width: 100%;
+  width: 155px;
   height: 80%;
   background-image: url("../images/index/featured-shirt.png");
   background-size: contain;
@@ -1257,8 +1305,11 @@ img {
   background-position: 85% center;
   position: absolute;
   top: 50%;
+  right: 40px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+          transform: translateY(-50%);
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .featured-pants2 {
   width: 100%;
@@ -1270,20 +1321,24 @@ img {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
+          transform: translateY(-50%);
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 .popular-item-wrap {
   width: 100%;
   margin-bottom: 100px; }
 
-.popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+.popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
   position: relative;
   height: 12vw;
   width: 12vw;
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
-  margin: 0 3.5%; }
+  margin: 0 3.5%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
 
 .popular-image-one {
   background-image: url("../images/index/popular-hoodie.png"); }
@@ -1296,6 +1351,13 @@ img {
 
 .popular-image-four {
   background-image: url("../images/index/popular-backpack.png"); }
+
+.popular-image-one:hover,
+.popular-image-two:hover,
+.popular-image-three:hover,
+.popular-image-four:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .popular-info {
   width: 12vw;
@@ -1666,6 +1728,8 @@ img {
     width: 100%;
     display: block;
     margin-bottom: 10px; }
+  .featured-right {
+    margin-bottom: 80px; }
   .featured-backpacks, .featured-shirts, .featured-jackets, .featured-pants {
     height: 50%; }
   .featured-jacket {
@@ -1682,15 +1746,20 @@ img {
     font-size: 1.1em; }
   .featured-text-link {
     font-size: 0.8em; }
-  .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+  .popular-item-wrap {
+    margin-bottom: 50px; }
+  .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 25vw;
     width: 25vw; }
+  .popular-item {
+    position: static; }
   .popular-image-three, .popular-image-four {
-    margin-top: 100px; }
+    margin-top: 60px; }
   .popular-info {
+    position: static;
     width: 25vw;
-    bottom: -50px;
-    font-size: 12px; }
+    font-size: 12px;
+    margin-top: 20px; }
   .big-button {
     font-size: 8px; }
   .blog-one, .blog-two, .blog-three, .blog-four {
@@ -1723,12 +1792,17 @@ img {
     top: 95px;
     right: 0;
     height: 700px;
-    display: none;
+    -webkit-transform: translateX(220px);
+            transform: translateX(220px);
     background-color: white;
     width: 220px;
-    border: 1px solid #E8EAE5; }
+    border: 1px solid #E8EAE5;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
     .header-menu.is-shown {
-      display: block; }
+      display: block;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px); }
   .header-user-options {
     position: static;
     text-align: center; }
@@ -1790,7 +1864,7 @@ img {
     font-size: 1.1em; }
   .featured-text-link {
     font-size: 0.8em; }
-  .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+  .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 30vw;
     width: 30vw; }
   .popular-info {
@@ -1880,3 +1954,73 @@ img {
   .footer-nav-list-item {
     display: block;
     margin-bottom: 10px; } }
+
+.blog-post {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #F5F5F5;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative; }
+
+.blog-post-title {
+  letter-spacing: 6px;
+  margin-bottom: 10px; }
+
+.blog-post-location {
+  font-size: 0.8em;
+  font-family: "Vollkorn", serif;
+  color: #999;
+  letter-spacing: 1px; }
+
+.blog-post-feature-image {
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 85%;
+  height: 100%;
+  background-image: url("../images/index/blogfeatureimage.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.blog-post-main-wrap {
+  z-index: 5;
+  position: absolute;
+  background-color: white;
+  width: 65%;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.blog-post-main-title {
+  font-family: "Vollkorn", serif;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: 1px; }
+
+.blog-post-main-date {
+  font-family: "Vollkorn", serif;
+  color: #999;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 1em; }
+
+.blog-post-main-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Vollkorn", serif;
+  color: #999; }
+
+.blog-post-main-image {
+  width: 70%;
+  height: 30vw;
+  background-image: url("../images/index/blogfeaturecontentimage.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px; }

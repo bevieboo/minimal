@@ -16,6 +16,7 @@
   position: relative;
   width: 100%;
   height: 58%;
+  transition: all 1s;
 }
 
 %featured-boxes-short {
@@ -24,12 +25,20 @@
   position: relative;
   width: 100%;
   height: 42%;
+  transition: all 1s;
 }
 
 .featured-jackets {
   @extend %featured-boxes-short;
   background-color: $mystic;
   margin-bottom: 5px;
+  overflow: hidden;
+}
+.featured-jackets:hover {
+  background-color: darken($mystic, 5%);
+  .featured-jacket {
+    transform: scale(1.1);
+  }
 }
 
 .featured-backpacks {
@@ -37,15 +46,33 @@
   background-color: $wild-sand;
   margin-bottom: 5px;
 }
+.featured-backpacks:hover {
+  background-color: darken($wild-sand, 5%);
+  .featured-backpack {
+    transform: translateY(-50%) scale(1.1);
+  }
+}
 
 .featured-shirts {
   @extend %featured-boxes-tall;
   background-color: $hint-of-red;
 }
+.featured-shirts:hover {
+  background-color: darken($hint-of-red, 5%);
+  .featured-shirt {
+    transform: translateY(-50%) scale(1.1);
+  }
+}
 
 .featured-pants {
   @extend %featured-boxes-short;
   background-color: $mystic;
+}
+.featured-pants:hover {
+  background-color: darken($mystic, 5%);
+  .featured-pants2 {
+    transform: translateY(-50%) scale(1.1);
+  }
 }
 
 .featured-text-wrap {
@@ -71,14 +98,16 @@
 }
 
 .featured-jacket {
-  width: 100%;
+  width: 212px;
   height: 90%;
   background-image: url('../images/index/featured-jacket.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
+  right: 0;
   bottom: 0;
+  transition: all 1s;
 }
 
 .featured-backpack {
@@ -91,10 +120,11 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  transition: all 1s;
 }
 
 .featured-shirt {
-  width: 100%;
+  width: 155px;
   height: 80%;
   background-image: url('../images/index/featured-shirt.png');
   background-size: contain;
@@ -102,7 +132,9 @@
   background-position: 85% center;
   position: absolute;
   top: 50%;
+  right: 40px;
   transform: translateY(-50%);
+  transition: all 1s;
 }
 
 .featured-pants2 {
@@ -115,4 +147,5 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  transition: all 1s;
 }
