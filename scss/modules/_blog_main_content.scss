@@ -1,0 +1,49 @@
+.blog-post {
+  text-align: center;
+  padding: 60px 0;
+  background-color: $wild-sand;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.blog-post-title {
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+}
+
+.blog-post-location {
+  font-size: 0.8em;
+  font-family: $font-family-vollkorn;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.blog-post-feature-image {
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  height: 100%;
+  background-image: url('../images/index/blogfeatureimage.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blog-post-main-wrap {
+  z-index: 5;
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.blog-post-main-title {
+  font-family: $font-family-vollkorn;
+}
+.blog-post-main-date {}
+.blog-post-main-content {}
+.blog-post-main-image {}
