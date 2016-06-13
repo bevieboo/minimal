@@ -59,18 +59,16 @@
     text-align: center;
   }
   .story-text{
-    margin: 0 auto;
     width: 60%;
     text-align: left;
+    font-size: 0.9em;
+    padding-left: 0;
   }
   .story-block {
     height: 100%;
-    width: 15%;
+    width: 16%;
     text-align: left;
-    font-size: 0.6em;
-  }
-  .story-block-text {
-
+    font-size: 1em;
   }
 }
 
@@ -80,6 +78,20 @@
   }
   .header-user-options {
     top: 20%;
+  }
+  .story-image {
+    width: 90%;
+  }
+  .story-text{
+    width: 72%;
+    padding-left: 0;
+    font-size: 0.9em;
+  }
+  .story-block {
+    width: 18%;
+  }
+  .story-block-text {
+    font-size: 0.75em;
   }
 }
 
@@ -146,6 +158,9 @@
   .blog-wrap {
     font-size: 0.8em;
     margin-bottom: 20px;
+  }
+  .story-text {
+    font-size: 0.9em;
   }
 }
 
@@ -261,6 +276,12 @@
   .big-button {
     font-size: 8px;
   }
+  .story-wrap {
+    width: 90%;
+  }
+  .story-image {
+    width: 100%;
+  }
 }
 
 @media (max-width: 720px) {
@@ -271,6 +292,12 @@
   %blog-image-dims {
     width: 115px;
     height: 115px;
+  }
+  .story-text {
+    width: 70%;
+  }
+  .story-block {
+    width: 25%;
   }
 }
 
@@ -317,4 +344,28 @@
   .blog-wrap {
     width: 90%;
   }
+  .story-wrap {
+    margin-bottom: 30px;
+  }
+  .story-text {
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .story-block {
+    width: 70%;
+    margin-top: 10px;
+  }
+  .story-block-image-wrap, .story-block-text {
+    display: inline-block;;
+  }
+  .story-block-image-wrap {
+    border-bottom: 0;
+    width: 30%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .story-block-text {
+    width: 68%;
+    vertical-align: top;
+  }
+
 }
