@@ -1401,6 +1401,9 @@ img {
 .blog-four-image {
   background-image: url("../images/index/blog4.png"); }
 
+.story {
+  padding-bottom: 40px; }
+
 .story:after {
   content: none; }
 
