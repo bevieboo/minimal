@@ -11,6 +11,11 @@
   background-repeat: no-repeat;
   display: inline-block;
   margin: 0 3.5%;
+  transition: all 0.5s;
+}
+
+.popular-item {
+  @extend %popular-items;
 }
 
 .popular-image-one {
@@ -28,6 +33,13 @@
 .popular-image-four {
   @extend %popular-items;
   background-image: url('../images/index/popular-backpack.png');
+}
+
+.popular-image-one:hover,
+.popular-image-two:hover,
+.popular-image-three:hover,
+.popular-image-four:hover {
+  transform: scale(1.1);
 }
 
 .popular-info {

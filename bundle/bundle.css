@@ -1315,14 +1315,16 @@ img {
   width: 100%;
   margin-bottom: 100px; }
 
-.popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+.popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
   position: relative;
   height: 12vw;
   width: 12vw;
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
-  margin: 0 3.5%; }
+  margin: 0 3.5%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
 
 .popular-image-one {
   background-image: url("../images/index/popular-hoodie.png"); }
@@ -1335,6 +1337,13 @@ img {
 
 .popular-image-four {
   background-image: url("../images/index/popular-backpack.png"); }
+
+.popular-image-one:hover,
+.popular-image-two:hover,
+.popular-image-three:hover,
+.popular-image-four:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .popular-info {
   width: 12vw;
@@ -1721,7 +1730,7 @@ img {
     font-size: 1.1em; }
   .featured-text-link {
     font-size: 0.8em; }
-  .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+  .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 25vw;
     width: 25vw; }
   .popular-image-three, .popular-image-four {
@@ -1834,7 +1843,7 @@ img {
     font-size: 1.1em; }
   .featured-text-link {
     font-size: 0.8em; }
-  .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
+  .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 30vw;
     width: 30vw; }
   .popular-info {
