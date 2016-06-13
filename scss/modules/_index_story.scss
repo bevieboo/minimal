@@ -1,0 +1,43 @@
+.story-wrap {
+  width: 70%;
+  margin: 60px auto;
+  font-family: $font-family-vollkorn;
+  font-size: 0.8em;
+  height: auto;
+  text-align: left;
+}
+
+.story-image {
+  width: 50%;
+  display: inline-block;
+  background-image: url('../images/index/story.png');
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.story-image:before{
+	content: "";
+	display: block;
+	padding-top: 100%; 	/* initial ratio of 1:1*/
+}
+
+.story-text {
+  display: inline-block;
+  color: #999;
+  width: 35%;
+  vertical-align: top;
+  padding: 30px 40px;
+}
+.story-first-character {
+  float: left;
+  color: black;
+  // font-size: 75px;
+  font-size: 4.8em;
+  line-height: 46px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.story-sidenote {
+
+}

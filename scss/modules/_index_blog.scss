@@ -2,10 +2,20 @@
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid $gray-nurse;
   background-color: $mystic;
   padding-top: 60px;
-  border-bottom: 1px solid #999;
+}
+
+.module-blog:after {
+  content: "";
+  background-color: #999;
+  opacity: 0.2;
+  display: block;
+  width: 70%;
+  height: 1px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .module-blog-title {
