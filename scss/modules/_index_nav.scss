@@ -97,4 +97,10 @@
   font-weight: 600;
   margin: 0 35px;
   font-size: 0.8rem;
+  opacity: 0.6;
+  transition: all .3s;
+}
+
+.header-nav-item:hover {
+  opacity: 1;
 }

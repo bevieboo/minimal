@@ -1133,7 +1133,13 @@ img {
   list-style: none;
   font-weight: 600;
   margin: 0 35px;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  opacity: 0.6;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.header-nav-item:hover {
+  opacity: 1; }
 
 .banner {
   position: relative;
