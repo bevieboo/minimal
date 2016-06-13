@@ -1511,10 +1511,10 @@ img {
 
 .footer {
   padding: 50px 0;
-  position: relative;
   width: 70%;
   margin: 0 auto;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  position: relative; }
 
 .footer-brand-name {
   font-weight: 800;
@@ -1623,6 +1623,19 @@ img {
     width: 16%;
     text-align: left;
     font-size: 1em; } }
+
+@media (max-width: 1150px) {
+  .footer {
+    text-align: center; }
+  .footer-follow-wrap {
+    display: block;
+    position: static;
+    text-align: center;
+    margin-top: 40px; }
+  .footer-brand-name, .footer-nav {
+    position: static; }
+  .footer-brand-name {
+    margin-right: 20px; } }
 
 @media (max-width: 1100px) {
   .header-logo {
@@ -1784,7 +1797,10 @@ img {
   .story-wrap {
     width: 90%; }
   .story-image {
-    width: 100%; } }
+    width: 100%; }
+  .footer-brand-name {
+    display: block;
+    margin-bottom: 40px; } }
 
 @media (max-width: 720px) {
   .blog-one, .blog-two, .blog-three, .blog-four {
@@ -1796,7 +1812,9 @@ img {
   .story-text {
     width: 70%; }
   .story-block {
-    width: 25%; } }
+    width: 25%; }
+  .footer {
+    width: 90%; } }
 
 @media (max-width: 550px) {
   .banner {
@@ -1849,4 +1867,12 @@ img {
     vertical-align: top; }
   .mailer-text {
     margin: 0 auto;
-    font-size: 0.75em; } }
+    font-size: 0.75em; }
+  .footer-brand-name {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .footer-follow-wrap {
+    margin-top: 20px; }
+  .footer-nav-list-item {
+    display: block;
+    margin-bottom: 10px; } }
