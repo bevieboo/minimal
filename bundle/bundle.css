@@ -1463,9 +1463,6 @@ img {
 .blog-four-image {
   background-image: url("../images/index/blog4.png"); }
 
-.story {
-  padding-bottom: 40px; }
-
 .story:after {
   content: none; }
 
@@ -1668,6 +1665,8 @@ img {
     height: 60%; }
   .blog-wrap {
     font-size: 0.7em; }
+  .story {
+    padding-bottom: 40px; }
   .story-image {
     display: block;
     margin: 0 auto;
@@ -1925,6 +1924,8 @@ img {
     padding: 7px 18px; }
   .blog-wrap {
     width: 90%; }
+  .story {
+    padding-bottom: 10px; }
   .story-wrap {
     margin-bottom: 30px; }
   .story-text {
