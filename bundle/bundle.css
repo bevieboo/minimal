@@ -1010,7 +1010,14 @@ img {
   padding: 0.8vw 2.2vw;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 0.6vw; }
+  font-size: 0.6vw;
+  box-shadow: inset 0 0 0 0 #B9AE7C;
+  -webkit-transition: all ease 0.8s;
+  transition: all ease 0.8s; }
+
+.big-button:hover {
+  box-shadow: inset 250px 0 0 0 #B9AE7C;
+  color: white; }
 
 .module {
   text-align: center;
