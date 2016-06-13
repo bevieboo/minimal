@@ -1426,7 +1426,8 @@ img {
   color: #999;
   width: 35%;
   vertical-align: top;
-  padding: 30px 40px; }
+  padding: 20px 40px;
+  font-size: 0.95em; }
 
 .story-first-character {
   float: left;
@@ -1440,7 +1441,7 @@ img {
 .story-block {
   display: inline-block;
   vertical-align: top;
-  margin: 30px 0;
+  margin: 20px 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 14%;
   height: 200px; }
@@ -1461,12 +1462,16 @@ img {
 
 @media (max-width: 1300px) {
   .banner-button {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     padding: 1vw 2.4vw; }
   .popular-info {
     font-size: 12px; }
   .big-button {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .story-text {
+    font-size: 0.9em; }
+  .story-block-text {
+    font-size: 0.7em; } }
 
 @media (max-width: 1200px) {
   .featured-text-title {
