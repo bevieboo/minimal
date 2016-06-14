@@ -2,7 +2,6 @@
 
 // Modules and Variables
 @import "hamburgers/hamburgers";
-@import "partials/base";
 
 // Partials
 @import "partials/reset";
@@ -10,6 +9,7 @@
 @import "partials/typography";
 @import "partials/buttons";
 @import "partials/module";
+@import "partials/base";
 
 @import "modules/index_nav";
 @import "modules/index_banner";

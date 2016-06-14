@@ -953,12 +953,6 @@
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg); }
 
-body {
-  font-family: 'Raleway', sans-serif; }
-
-button:focus {
-  outline: 0; }
-
 /* apply a natural box layout model to all elements,
    but allow overriding */
 html {
@@ -1045,6 +1039,15 @@ img {
   letter-spacing: 1px;
   font-size: 1vw; }
 
+body {
+  font-family: 'Raleway', sans-serif; }
+
+button:focus {
+  outline: 0; }
+
+input:focus {
+  border: 1px solid #B9AE7C; }
+
 .header {
   height: 150px;
   width: 100%;
@@ -1114,7 +1117,7 @@ img {
   height: 1.8em;
   vertical-align: top;
   position: absolute;
-  top: -2px;
+  top: -1px;
   right: 0; }
 
 .header-nav {
