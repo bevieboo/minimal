@@ -12,7 +12,6 @@
   .story-text {
     font-size: 0.9em;
   }
-
 }
 
 @media(max-width: 1250px) {
@@ -98,7 +97,7 @@
     left: 50px;
   }
   .header-user-options {
-    top: 20%;
+    top: 23%;
   }
   .story-image {
     width: 90%;
@@ -123,37 +122,8 @@
   .module-desc {
     font-size: 1.2vw;
   }
-  .featured-left, .featured-right {
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
-  }
-  .featured-right {
-    margin-bottom: 80px;
-  }
-  %featured-boxes-tall, %featured-boxes-short {
-    height: 50%;
-  }
-  .featured-jacket {
-    height: 80%;
-  }
-  .featured-backpack {
-    height: 65%;
-    background-position: 65% center;
-  }
-  .featured-shirt {
-    height: 80%;
-  }
-  .featured-pants2 {
-    background-position: 75% center;
-    height: 70%;
-  }
-  .featured-text-title {
-    font-size: 1.1em;
-  }
-  .featured-text-link {
-    font-size: 0.8em;
+  .module {
+    width: 90%;
   }
   .popular-item-wrap {
     margin-bottom: 50px;
@@ -289,27 +259,6 @@
   .module-desc {
     font-size: 1.4vw;
   }
-  .module {
-    width: 100%;
-  }
-  .featured-left, .featured-right {
-    margin: 0 auto;
-    width: 90%;
-    display: block;
-  }
-  .featured-right {
-    margin-bottom: 60px;
-  }
-  %featured-boxes-tall, %featured-boxes-short {
-    height: 50%;
-    margin-bottom: 0;
-  }
-  .featured-text-title {
-    font-size: 1.1em;
-  }
-  .featured-text-link {
-    font-size: 0.8em;
-  }
   %popular-items {
     height: 30vw;
     width: 30vw;
@@ -329,6 +278,15 @@
   .footer-brand-name {
     display: block;
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .featured-left, .featured-right {
+    width: 90%;
+  }
+  .featured-left {
+    margin-bottom: 10px;
   }
 }
 

@@ -1718,7 +1718,7 @@ input:focus {
   .header-logo {
     left: 50px; }
   .header-user-options {
-    top: 20%; }
+    top: 23%; }
   .story-image {
     width: 90%; }
   .story-text {
@@ -1735,29 +1735,8 @@ input:focus {
     font-size: 2.2vw; }
   .module-desc {
     font-size: 1.2vw; }
-  .featured-left, .featured-right {
-    margin: 0 auto;
-    width: 100%;
-    display: block;
-    margin-bottom: 10px; }
-  .featured-right {
-    margin-bottom: 80px; }
-  .featured-backpacks, .featured-shirts, .featured-jackets, .featured-pants {
-    height: 50%; }
-  .featured-jacket {
-    height: 80%; }
-  .featured-backpack {
-    height: 65%;
-    background-position: 65% center; }
-  .featured-shirt {
-    height: 80%; }
-  .featured-pants2 {
-    background-position: 75% center;
-    height: 70%; }
-  .featured-text-title {
-    font-size: 1.1em; }
-  .featured-text-link {
-    font-size: 0.8em; }
+  .module {
+    width: 90%; }
   .popular-item-wrap {
     margin-bottom: 50px; }
   .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
@@ -1861,21 +1840,6 @@ input:focus {
     font-size: 2.4vw; }
   .module-desc {
     font-size: 1.4vw; }
-  .module {
-    width: 100%; }
-  .featured-left, .featured-right {
-    margin: 0 auto;
-    width: 90%;
-    display: block; }
-  .featured-right {
-    margin-bottom: 60px; }
-  .featured-backpacks, .featured-shirts, .featured-jackets, .featured-pants {
-    height: 50%;
-    margin-bottom: 0; }
-  .featured-text-title {
-    font-size: 1.1em; }
-  .featured-text-link {
-    font-size: 0.8em; }
   .popular-item, .popular-image-one, .popular-image-two, .popular-image-three, .popular-image-four {
     height: 30vw;
     width: 30vw; }
@@ -1890,6 +1854,12 @@ input:focus {
   .footer-brand-name {
     display: block;
     margin-bottom: 40px; } }
+
+@media (max-width: 750px) {
+  .featured-left, .featured-right {
+    width: 90%; }
+  .featured-left {
+    margin-bottom: 10px; } }
 
 @media (max-width: 720px) {
   .blog-one, .blog-two, .blog-three, .blog-four {
